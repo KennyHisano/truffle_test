@@ -15,20 +15,56 @@
       "type": "function"
     },
     {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "deposit",
+      "outputs": [
+        {
+          "name": "_newValue",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
       "inputs": [],
       "payable": false,
       "type": "constructor"
     }
   ],
-  "unlinked_binary": "0x6060604052346000575b6103e86000555b5b60708061001f6000396000f300606060405263ffffffff60e060020a600035041663b69ef8a881146022575b6000565b34600057602c603e565b60408051918252519081900360200190f35b600054815600a165627a7a72305820d980b5c2b028b21a7e0f0fd690e7661adb0dd3e28a8e53086f93887f33819b910029",
+  "unlinked_binary": "0x606060405234610000575b6103e86000555b5b60a9806100206000396000f300606060405263ffffffff60e060020a600035041663b69ef8a88114602c578063b6b55f25146048575b6000565b3460005760366067565b60408051918252519081900360200190f35b346000576036600435606d565b60408051918252519081900360200190f35b60005481565b600080548201908190555b9190505600a165627a7a72305820673ac40114207ba0055b15000b6a668a2028fb9788c2f963804564d7dcc7f3150029",
   "networks": {
     "1492166664430": {
       "events": {},
       "links": {},
       "address": "0x1342373d9e4ff710de1d7a64b4eee8b7e2d0f468",
       "updated_at": 1492166985075
+    },
+    "1492476125039": {
+      "events": {},
+      "links": {},
+      "address": "0x5b822bb87a6cd4381c0056043e6118beedfee480",
+      "updated_at": 1492480254007
+    },
+    "1492480942875": {
+      "events": {},
+      "links": {},
+      "address": "0xf3edc2410130461541f4e4e2037009cb9e3cad24",
+      "updated_at": 1492480947543
+    },
+    "1492481050045": {
+      "events": {},
+      "links": {},
+      "address": "0x10b9978d970c7d7683236343e0f9705a4cebea13",
+      "updated_at": 1492481097111
     }
   },
   "schema_version": "0.0.5",
-  "updated_at": 1492166985075
+  "updated_at": 1492481097111
 }
